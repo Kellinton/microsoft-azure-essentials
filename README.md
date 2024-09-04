@@ -1,7 +1,7 @@
 # Microsoft Azure Essentials DIO 🌐
 <p>
 
-<img width="560" height="382" src="./to_readme/azure-img.png">
+<img width="800" height="382" src="./to_readme/azure-img.png">
 
 </p>
 
