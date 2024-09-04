@@ -24,84 +24,30 @@
       </ul>
     </nav>
     <div class="wrapper">
-      <aside class="doc__nav">
+      <aside class="doc__nav" id="nav">
         <ul>
-          <li class="js-btn selected">Localizando Serviços</li>
-          <li class="js-btn">Criando Máquinas Virtuais</li>
-          <li class="js-btn">Config. Banco de Dados</li>
-          <li class="js-btn">Criar Arquiteturas Azure</li>
-          <li class="js-btn">Recursos e Dimensionamentos</li>
-          <li class="js-btn">Armazenamento na Azure</li>
-          <li class="js-btn">Segurança e Identidade na Azure</li>
-          <li class="js-btn">Otimizando Custos no Azure</li>
-          <li class="js-btn">Políticas em Acessos Azure</li>
-          <li class="js-btn">Implantação na Azure</li>
-          <li class="js-btn">Monitoramento com o Azure</li>
+          <li data-target="localizar" class="js-btn selected">Localizando Serviços</li>
+          <li data-target="maquinas" class="js-btn">Criando Máquinas Virtuais</li>
+          <li data-target="banco" class="js-btn">Config. Banco de Dados</li>
+          <li data-target="arquiteturas" class="js-btn">Criar Arquiteturas Azure</li>
+          <li data-target="recursos" class="js-btn">Recursos e Dimensionamentos</li>
+          <li data-target="armazenamento" class="js-btn">Armazenamento na Azure</li>
+          <li data-target="seguranca" class="js-btn">Segurança e Identidade na Azure</li>
+          <li data-target="custos" class="js-btn">Otimizando Custos no Azure</li>
+          <li data-target="politicas" class="js-btn">Políticas em Acessos Azure</li>
+          <li data-target="implantacao" class="js-btn">Implantação na Azure</li>
+          <li data-target="monitoramento" class="js-btn">Monitoramento com o Azure</li>
         </ul>
       </aside>
-      <article class="doc__content">
-        <section class="js-section">
-          <h3 class="section__title">Localizando serviços por categoria</h3>
-          <p>
-            Este guia detalhado irá ajudá-lo a navegar pelo portal do Azure 
-            para encontrar serviços organizados por categoria. Isso facilitará 
-            a identificação das soluções necessárias para seu ambiente no Azure, 
-            como serviços de computação, redes, bancos de dados, entre outros.
-          </p>    
-          <h3 class="section__title">1. Acesse o Portal do Azure</h3>
-          <ul>
-            <li style="color: white;"><p>Abra o navegador e vá até <a href="#" style="color: #60A5FA;">portal.azure.com.</a></p></li>
-            <li style="color: white;"><p>Faça login com suas credenciais da conta Microsoft.</p></li>
-          </ul>
-          <h3 class="section__title">2. Acessar o Menu "Criar um Recurso"</h3>
-          <ul>
-            <li style="color: white;"><p>Depois de fazer login, no painel inicial do Azure, clique em "Criar um recurso" no menu lateral à esquerda. Este menu é o ponto de partida para adicionar novos serviços ao seu ambiente Azure.</p></li>
-          </ul>
-          <h3 class="section__title">3. Explorar as Categorias Disponíveis</h3>
-          <ul>
-            <li style="color: white;"><p>Na página "Criar um recurso", você encontrará uma barra lateral com várias categorias, como:</p></li>
-            <li style="color: white;"><p>Computação</p></li>
-            <li style="color: white;"><p>Redes</p></li>
-            <li style="color: white;"><p>Armazenamento</p></li>
-            <li style="color: white;"><p>Banco de Dados</p></li>
-            <li style="color: white;"><p>Web</p></li>
-            <li style="color: white;"><p>IA + Machine Learning</p></li>
-            <li style="color: white;"><p>Segurança</p></li>
-            <li style="color: white;"><p>DevOps</p></li>
-            <li style="color: white;"><p>Migração</p></li>
-            <li style="color: white;"><p>Clique em qualquer uma dessas categorias para visualizar os serviços disponíveis dentro de cada uma.</p></li>
-          </ul>
-          <h3 class="section__title">4. Utilizar a Barra de Pesquisa</h3>
-          <ul>
-            <li style="color: white;"><p>Se você já sabe qual serviço deseja, utilize a barra de pesquisa na parte superior da página "Criar um recurso". Digite o nome ou uma palavra-chave relacionada ao serviço.</p></li>
-          </ul>
-          <h3 class="section__title">5. Filtrar Serviços por Categoria</h3>
-          <ul>
-            <li style="color: white;"><p>Ao clicar em uma categoria, você pode refinar sua busca aplicando filtros adicionais, como tipo de serviço, preço e tipo de oferta. Isso ajuda a encontrar exatamente o que você precisa.</p></li>
-          </ul>
-          <h3 class="section__title">6. Explorar o Azure Marketplace</h3>
-          <ul>
-            <li style="color: white;"><p>O Azure Marketplace oferece uma vasta gama de serviços e soluções de terceiros, também organizados por categoria. Você pode acessá-lo clicando em "Marketplace" no menu principal do portal.</p></li>
-          </ul>
-          <h3 class="section__title">7. Criar e Configurar o Serviço</h3>
-          <ul>
-            <li style="color: white;"><p>Iniciar a Criação e Configuração do Serviço:</p></li>
-            <li style="color: white;"><p>Quando encontrar o serviço desejado, clique nele para iniciar o processo de configuração. Siga as instruções fornecidas na tela para configurar e provisionar o serviço no seu ambiente Azure.</p></li>
-          </ul>
-        </section>
-        <hr>
-        <section>
-          <p>
-            Com este guia, você poderá localizar e configurar facilmente qualquer serviço no Azure, utilizando as categorias e ferramentas de pesquisa disponíveis no portal. Os prints de tela sugeridos irão ajudar a guiar visualmente os usuários durante o processo.
-          </p>
-        </section>     
+      <article class="doc__content" id="content">
+        <!-- Seções -->
       </article>
+
     </div>
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    <script src="./src/js/content.js"></script>
     <script src="./src/js/global.js"></script>
   </body>
 </html>
