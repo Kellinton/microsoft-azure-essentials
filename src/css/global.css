@@ -35,7 +35,7 @@ a, a:hover {
 hr {
   padding: 1rem 0;
   border: 0;
-  border-bottom: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--code-bg-color);
 }
 
 * {
@@ -48,7 +48,6 @@ hr {
 .section__title {
   color: var(--white-color);
 }
-
 
 .tab__container {
   position: relative;
